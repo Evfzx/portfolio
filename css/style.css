@@ -1,0 +1,88 @@
+body{
+    background-color: #212529;
+    font-family: Product Sans;
+}
+h1.faiz{
+    font-size:4.5em;
+    background: linear-gradient(271deg,#a0e9ff 30%,#a162e8 50%,#f093b0 70%,#8594ed 94%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.img-link:hover{
+    -webkit-transform: scale(1.08);
+    transform: scale(1.08);
+}
+.img-link{
+    -webkit-transition: 0.4s ease;
+  transition: 0.4s ease;
+  width: 500px;
+}
+hr.new1 {
+  border-top: 3px solid rgb(233, 21, 252);
+  text-align: center;
+}
+.flex-container {
+  display: flex;
+}
+.flex-container > div {
+  margin: 10px;
+  padding: 20px;
+}
+@media screen and (max-width:680px){
+    h1.faiz{
+        font-size:3em;
+        background: linear-gradient(271deg,#a0e9ff 30%,#a162e8 50%,#f093b0 70%,#8594ed 94%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    .flex-container {
+        display: inline;
+      }
+      
+      .flex-container > div {
+        margin: 10px;
+        padding: 20px;
+      }
+}
+@media screen and (max-width:928px){
+    h1.faiz{
+        font-size:4.5em;
+        background: linear-gradient(271deg,#a0e9ff 30%,#a162e8 50%,#f093b0 70%,#8594ed 94%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    .flex-container {
+        display: inline;
+      }
+      
+      .flex-container > div {
+        margin: 10px;
+        padding: 20px;
+      }
+}
+/* navbar */
+.navbar1 {
+    display: flex;
+    justify-content: space-around;
+    overflow: hidden;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    font-weight: bold;
+    background-color: #212529;
+    z-index: 1;
+  }
+  /* link navbar */
+  .navbar1 a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 35px;
+    text-decoration: none;
+  }
+  
+  /* merubah warna background link ketika mouse lewat */
+  .navbar1 a:hover {
+    border-bottom: 1px solid white;
+  }
